@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculatore'</title>
-</head>
-<body>
-    <script src="index4.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CALCULATOR</title>
+    </head>
+    <body>
+        <h4 style="position:fixed; margin: 10px">MAGIC NUMBER</h4>
+        <div style="position:fixed; margin:30px 20px; width:80px; height:30px; border:2px solid black; background-color:white">
+            <p id="result" style="margin:0 auto; padding-top:5px"></p>
+        </div>
+        <div id="add" style="width:100%; height:300px; border:4px solid black; text-align:center; background-color: rgb(172, 117, 204)">
+            <h3>
+                ADD
+            </h3>
+            <input id="addFirst"></input>
+            <p style="display:inline-block"> + </p>
+            <input id="addSecond"></input>
+            <button id="addButton" style="margin-top:60px">DON'T PUSH ME</button>
+        </div>
+        <div id="sub" style="width:100%; height:300px; border:4px solid black; text-align:center; background-color: rgb(83, 83, 78)">
+            <h3>
+                SUBTRACT
+            </h3>
+            <input id="subFirst"></input>
+            <p style="display:inline-block"> - </p>
+            <input id="subSecond"></input>
+            <button id="subButton" style="margin-top:60px">GOOOO!</button>
+        </div>
+        <div id="mul" style="width:100%; height:300px; border:4px solid rgb(2, 2, 2); text-align:center; background-color: rgb(218, 137, 181)">
+            <h3>
+                MULTIPLY
+            </h3>
+            <input id="mulFirst"></input>
+            <p style="display:inline-block"> x </p>
+            <input id="mulSecond"></input>
+            <button id="mulButton" style="margin-top:60px">TA-DA!</button>
+        </div>
+
+        <script src="index4.js"></script>
+    </body>
 </html>
