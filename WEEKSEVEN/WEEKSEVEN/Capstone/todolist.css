@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(134, 143, 143);
+}
+@media only screen and (min-width: 320px){
+h1{
+    font-size: 25px;
+}
+#form input{
+    margin: 5px;
+}
+
+p{
+    display: inline-grid;
+    grid-template-columns: 3fr; 
+    margin: 10px;
+}
+#info1{
+    margin-left: 75px;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #centerme{
+        text-align: center;
+    }
+    #info1{
+        margin-left: 750px;
+    }
+    
+}
